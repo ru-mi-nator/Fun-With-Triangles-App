@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Triangle Quiz</h1>
-    <form class="quiz-form"></form>
+    <form class="quiz-form">
     <div class="ques-container">
         <p>What is the third angle for the triangle whose other two angles are 45° each?</p>
         <label><input type="radio" name="question1" value="45°"> 45° </label>
@@ -21,8 +21,46 @@
         <label><input type="radio" name="question2" value="Right Angled"> Right Angled </label>
         <label><input type="radio" name="question2" value="Obtuse"> Obtuse </label>
         <label><input type="radio" name="question2" value="Acute"> Acute </label>
-    </div>    
-
+    </div>
+    <div class="ques-container">
+        <p>What do you call a triangle whose sides are all equal?</p>
+        <label><input type="radio" name="question3" value="Equilateral"> Equilateral </label>
+        <label><input type="radio" name="question3" value="Isosceles"> Isosceles </label>
+        <label><input type="radio" name="question3" value="Acute"> Acute </label>
+    </div>
+    <div class="ques-container">
+        <p>Isoscele triangle is defined as?</p>
+        <label><input type="radio" name="question4" value="Two sides are equal"> Two sides are equal </label>
+        <label><input type="radio" name="question4" value="All sides are equal"> All sides are equal </label>
+        <label><input type="radio" name="question4" value="No sides are equal"> No sides are equal </label>
+    </div>
+    <div class="ques-container">
+        <p>What type of triangle has all angles measuring 60°?</p>
+        <label><input type="radio" name="question5" value="Equilateral"> Equilateral </label>
+        <label><input type="radio" name="question5" value="Isosceles"> Isosceles </label>
+        <label><input type="radio" name="question5" value="Scalene"> Scalene </label>
+    </div>
+    <div class="ques-container">
+        <p>A triangle has two sides measuring 13 meters and one side measuring 9 meters. What type of triangle is this?</p>
+        <label><input type="radio" name="question6" value="Equilateral"> Equilateral </label>
+        <label><input type="radio" name="question6" value="Isosceles"> Isosceles </label>
+        <label><input type="radio" name="question6" value="Scalene"> Scalene </label>
+    </div>
+    <div class="ques-container">
+        <p>A triangle has two angles measuring 55° and one angle measuring 70°. What type of triangle is this?</p>
+        <label><input type="radio" name="question7" value="Right Angled"> Right Angled </label>
+        <label><input type="radio" name="question7" value="Obtuse"> Obtuse </label>
+        <label><input type="radio" name="question7" value="Equilateral"> Equilateral </label>
+    </div>
+    <div class="ques-container">
+        <p>Which triangle has all three angles less than 90°?</p>
+        <label><input type="radio" name="question8" value="Right Angled"> Right Angled </label>
+        <label><input type="radio" name="question8" value="Scalene"> Scalene </label>
+        <label><input type="radio" name="question8" value="Acute"> Acute </label>
+    </div>
+</form>
+<button id="submit-ans-btn">Submit Answers</button>
+<div id="output"></div>
 <script src="quiz.js"></script>    
 </body>
 </html>
