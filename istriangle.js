@@ -4,8 +4,15 @@ const output1 = document.querySelector("#output");
 
 
 function calculateSumOfAngles(angle1, angle2, angle3) {
-    const sumOfAngles = angle1 + angle2 + angle3;
+    if (angle1>0 && angle2>0 && angle3>0) {
+        const sumOfAngles = angle1 + angle2 + angle3;
     return sumOfAngles;
+    } else if (angle1<0 || angle2<0 || angle3<0) {
+        output1.innerText = "Values can't be negative!"
+    } else {
+        output1.innerText = "Please enter all the values!"
+    }
+    
 }
 
 function isTriangle() {
