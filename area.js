@@ -1,7 +1,7 @@
 const side = document.querySelectorAll(".side");
 // const height = document.querySelector("#height");
 const checkButton = document.querySelector("#check-area");
-const output4 = document.querySelector("#output4")
+const output4 = document.querySelector("#output")
 
 function calculateArea() {
     const base = Number(side[0].value);

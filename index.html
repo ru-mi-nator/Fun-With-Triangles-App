@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Area of Triangle</title>
+    <title>Is Triangle?</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <nav class="navigation" >
-        <div class="nav-brand">Finding Area</div>
+        <div class="nav-brand">Is A Triangle ?</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="index.html">Is Triangle?</a>
+                <a class="link link-active" href="index.html">is Triangle</a>
             </li>
             <li class="list-item-inline">
                 <a class="link link-active" href="hypotenuse.html">Hypotenuse</a>
@@ -26,11 +26,16 @@
             </li>
         </ul>
     </nav>
-    <div class="desc">Area of a Triangle</div>
-    <h3>The Area of a Triangle is 1/2(Base*Height)</h3>
-    <label for="base">Base (in cm) <input type="number" class="side"></label>
-    <label for="height">Height (in cm) <input type="number" class="side"></label>
-    <button id="check-area">Check Area</button>
+
+    <div class="desc">Enter the values of angles</div class="desc">
+        <small class="small-box">HINT : Sum of all the angles in a Triangle is 180°</small>
+    <label for="angle1">Enter angle 1: </label>
+    <input type="number" required min="1" oninput="validity.valid||(value='')" class="angle-input">
+    <label for="angle2">Enter angle 2: </label>
+    <input type="number" required min="1" oninput="validity.valid||(value='')" class="angle-input">
+    <label for="angle3">Enter angle 3: </label>
+    <input type="number" required min="1" oninput="validity.valid||(value='')" class="angle-input">
+    <button id="is-triangle-btn">Check</button>
     <div id="output"></div>
 
     <footer class="footer">
@@ -43,6 +48,6 @@
         </ul>
         <div class="footer-footer">Made with ❤️ by RuMi</div>
     </footer>
-<script src="area.js"></script>    
+    <script src="istriangle.js"></script>
 </body>
 </html>

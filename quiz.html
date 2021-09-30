@@ -5,55 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <link rel="stylesheet" href="quiz.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Triangle Quiz</h1>
+
+    <nav class="navigation" >
+        <div class="nav-brand">Triangle Quiz</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="index.html">is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="area.html">Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="quiz.html">Quiz</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="desc">Select the correct options !</div>
     <form class="quiz-form">
     <div class="ques-container">
-        <p>What is the third angle for the triangle whose other two angles are 45° each?</p>
+        <p>1. What is the third angle for the triangle whose other two angles are 45° each?</p>
         <label><input type="radio" name="question1" value="45°"> 45° </label>
         <label><input type="radio" name="question1" value="60°"> 60° </label>
         <label><input type="radio" name="question1" value="90°"> 90° </label>
     </div>
     <div class="ques-container">
-        <p>If a triangle has a 90° angle, what it is called?</p>
+        <p>2. If a triangle has a 90° angle, what it is called?</p>
         <label><input type="radio" name="question2" value="Right Angled"> Right Angled </label>
         <label><input type="radio" name="question2" value="Obtuse"> Obtuse </label>
         <label><input type="radio" name="question2" value="Acute"> Acute </label>
     </div>
     <div class="ques-container">
-        <p>What do you call a triangle whose sides are all equal?</p>
+        <p>3. What do you call a triangle whose sides are all equal?</p>
         <label><input type="radio" name="question3" value="Equilateral"> Equilateral </label>
         <label><input type="radio" name="question3" value="Isosceles"> Isosceles </label>
         <label><input type="radio" name="question3" value="Acute"> Acute </label>
     </div>
     <div class="ques-container">
-        <p>Isoscele triangle is defined as?</p>
+        <p>4. Isoscele triangle is defined as?</p>
         <label><input type="radio" name="question4" value="Two sides are equal"> Two sides are equal </label>
         <label><input type="radio" name="question4" value="All sides are equal"> All sides are equal </label>
         <label><input type="radio" name="question4" value="No sides are equal"> No sides are equal </label>
     </div>
     <div class="ques-container">
-        <p>What type of triangle has all angles measuring 60°?</p>
+        <p>5. What type of triangle has all angles measuring 60°?</p>
         <label><input type="radio" name="question5" value="Equilateral"> Equilateral </label>
         <label><input type="radio" name="question5" value="Isosceles"> Isosceles </label>
         <label><input type="radio" name="question5" value="Scalene"> Scalene </label>
     </div>
     <div class="ques-container">
-        <p>A triangle has two sides measuring 13 meters and one side measuring 9 meters. What type of triangle is this?</p>
+        <p>6. A triangle has two sides measuring 13 meters and one side measuring 9 meters. What type of triangle is this?</p>
         <label><input type="radio" name="question6" value="Equilateral"> Equilateral </label>
         <label><input type="radio" name="question6" value="Isosceles"> Isosceles </label>
         <label><input type="radio" name="question6" value="Scalene"> Scalene </label>
     </div>
     <div class="ques-container">
-        <p>A triangle has two angles measuring 55° and one angle measuring 70°. What type of triangle is this?</p>
+        <p>7. A triangle has two angles measuring 55° and one angle measuring 70°. What type of triangle is this?</p>
         <label><input type="radio" name="question7" value="Right Angled"> Right Angled </label>
         <label><input type="radio" name="question7" value="Obtuse"> Obtuse </label>
         <label><input type="radio" name="question7" value="Equilateral"> Equilateral </label>
     </div>
     <div class="ques-container">
-        <p>Which triangle has all three angles less than 90°?</p>
+        <p>8. Which triangle has all three angles less than 90°?</p>
         <label><input type="radio" name="question8" value="Right Angled"> Right Angled </label>
         <label><input type="radio" name="question8" value="Scalene"> Scalene </label>
         <label><input type="radio" name="question8" value="Acute"> Acute </label>
@@ -61,6 +80,17 @@
 </form>
 <button id="submit-ans-btn">Submit Answers</button>
 <div id="output"></div>
+
+<footer class="footer">
+    <div class="footer-heading">connect with me here 💌</div>
+    <ul class="social-links">
+        <li class="list-item-inline"><a class="links" href="https://github.com/ru-mi-nator"> <img src="images/icons8-github.svg" alt=""></a></li>
+        <li class="list-item-inline"><a class="links" href="https://www.instagram.com/ru_mi_nator/?hl=en"> <img src="images/icons8-instagram-circle (1).svg" alt=""></a></li>
+        <li class="list-item-inline"><a class="links" href="https://twitter.com/ru_mi_nator"> <img src="images/icons8-twitter-circled.svg" alt=""></a></li>
+        <li class="list-item-inline"><a class="links" href="https://www.linkedin.com/mwlite/in/rudra-mishra-40a303160"> <img src="images/icons8-linkedin (5).svg" alt=""></a></li>
+    </ul>
+    <div class="footer-footer">Made with ❤️ by RuMi</div>
+</footer>
 <script src="quiz.js"></script>    
 </body>
 </html>
